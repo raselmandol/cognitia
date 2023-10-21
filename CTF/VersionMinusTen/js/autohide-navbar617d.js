@@ -1,0 +1,1 @@
+$(function(){let a=0,o=$("#navtop-container"),h=o.height()/2;$(window).scroll(function(e){let s=$(this).scrollTop();s>Math.max(a,h)?(o.addClass("fade-out"),o.removeClass("fade-in")):(o.addClass("fade-in"),o.removeClass("fade-out")),a=s})});
